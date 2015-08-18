@@ -1,0 +1,16 @@
+{
+    "name": "nikitamelnikov/functional",
+    "description": "Funcational lib",
+    "authors": [
+        {
+            "name": "Nikita Melnikov",
+            "email": "melnikovnikita@icloud.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "psr-4": {"Functional\\": "src/Functional"}
+    }
+}
